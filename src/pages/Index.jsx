@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, VStack, HStack, Input, Button, Text, Checkbox, IconButton, Box } from "@chakra-ui/react";
+import { Container, VStack, HStack, Input, Button, Text, Checkbox, IconButton, Box, Image } from "@chakra-ui/react";
 import { FaTrash } from "react-icons/fa";
 
 const Index = () => {
@@ -27,6 +27,7 @@ const Index = () => {
 
   return (
     <Container centerContent maxW="container.md" py={10}>
+      <Image src="/images/flowers.jpg" alt="Flowers" borderRadius="md" mb={4} />
       <VStack spacing={4} width="100%">
         <Text fontSize="3xl" fontWeight="bold">Todo App</Text>
         <HStack width="100%">
